@@ -249,7 +249,7 @@ public class Pasaje extends Cliente {
     @Override
     public void Impresion() {
         System.out.println("===================");
-        System.out.println("Personal de Cabina:");
+        System.out.println("Personal de Cabina");
         System.out.println("===================");
         System.out.println("Numero de vuelo: " + numeroVuelo);
         System.out.println("Fecha de vuelo: " + fechaVuelo);
