@@ -1,4 +1,4 @@
-package model;
+package datos;
 
 import java.util.Objects;
 
@@ -9,10 +9,10 @@ import java.util.Objects;
 public class PersonalDeCabina {
 
     private String rut;
-    private String nombre;
-    private String apellido;
+    private String nombre = "sinNombre";
+    private String apellido = "sin Apellido";
     private String nacionalidad;
-    private int edad;
+    private int edad = 21;
 
     protected PersonalDeCabina() {
     }
@@ -113,6 +113,4 @@ public class PersonalDeCabina {
 
     //metodo de impresion
     //javadoc
-    
-    
 }

@@ -1,14 +1,28 @@
-package model;
+package datos;
+
 /**
  *
  * @author XZeroMarx
  */
-public class Azafate extends PersonalDeCabina{
+public class Azafate extends PersonalDeCabina {
+
     private boolean otrosIdiomas;
     private boolean ingles;
+
     
-    
-    
+    //constructores
+    public Azafate() {
+    }
+
+    public Azafate(boolean otrosIdiomas) {
+        this.otrosIdiomas = otrosIdiomas;
+    }
+
+    public Azafate(boolean otrosIdiomas, boolean ingles) {
+        this.otrosIdiomas = otrosIdiomas;
+        this.ingles = ingles;
+    }
+
     public boolean isIdiomas() {
         return otrosIdiomas;
     }
@@ -56,9 +70,7 @@ public class Azafate extends PersonalDeCabina{
         }
         return true;
     }
-    
+
     //metodo de impresion
     //javadoc
-
-    
 }

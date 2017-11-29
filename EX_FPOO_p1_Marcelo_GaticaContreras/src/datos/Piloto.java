@@ -1,29 +1,26 @@
-package model;
+package datos;
+
 /**
  *
  * @author XZeroMarx
  */
-public class Piloto extends PersonalDeCabina{
+public class Piloto extends PersonalDeCabina {
 
-    private int horasDeVuelo;
+    private int horasDeVuelo = 400;
 
-    //constructor
-
+    //constructores
     public Piloto() {
     }
-    
 
     public Piloto(int horasDeVuelo) {
         this.horasDeVuelo = horasDeVuelo;
     }
 
-    public Piloto(int horasDeVuelo, String rut, String nombre) {
+    public Piloto(String rut, String nombre, int horasDeVuelo) {
         super(rut, nombre);
         this.horasDeVuelo = horasDeVuelo;
     }
-    
-    
-    
+
     public int getHorasDeVuelo() {
         return horasDeVuelo;
     }
@@ -60,10 +57,8 @@ public class Piloto extends PersonalDeCabina{
         }
         return true;
     }
-    
-    
+
     //javadoc
     //metodo de impresion
-    //falta constructor
     
 }
