@@ -3,6 +3,9 @@ package datos;
 import java.util.Objects;
 
 /**
+ * Clase que da valores a los clientes que utilizan el servicio. cuenta con
+ * atributos tales como el nombre y Rut. Esta clase es hija de la clase
+ * "PersonalDeCabina" y a la vez, es padre de la clase "Pasaje".
  *
  * @author XZeroMarx
  */
@@ -10,7 +13,7 @@ public class Cliente {
 
     private String rut;
     private String nombre;
-    
+
     //constructores
     public Cliente() {
     }
@@ -71,8 +74,14 @@ public class Cliente {
         }
         return true;
     }
-    
-    
-    
-    
+
+    public void Impresion() {
+        System.out.println("===================");
+        System.out.println("Cliente:");
+        System.out.println("===================");
+        System.out.println("Rut: " + rut);
+        System.out.println("Nombre: " + nombre);
+
+    }
+
 }
