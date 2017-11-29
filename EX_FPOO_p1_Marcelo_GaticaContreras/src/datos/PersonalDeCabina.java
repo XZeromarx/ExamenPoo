@@ -165,7 +165,7 @@ public abstract class PersonalDeCabina {
      */
     public void Impresion() {
         System.out.println("===================");
-        System.out.println("Personal de Cabina:");
+        System.out.println("Personal de Cabina");
         System.out.println("===================");
         System.out.println("Rut: " + rut);
         System.out.println("Nombre: " + nombre);

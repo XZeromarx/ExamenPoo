@@ -126,7 +126,7 @@ public class Azafate extends PersonalDeCabina {
     @Override
     public void Impresion() {
         System.out.println("===================");
-        System.out.println("Azafate:");
+        System.out.println("Azafate");
         System.out.println("===================");
 
         if (ingles == true) {

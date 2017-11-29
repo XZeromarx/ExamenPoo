@@ -65,7 +65,7 @@ public class Piloto extends PersonalDeCabina {
      */
     public void Impresion() {
         System.out.println("===================");
-        System.out.println("Piloto:");
+        System.out.println("Piloto");
         System.out.println("===================");
         System.out.println("Horas de vuelo: " + horasDeVuelo);
 

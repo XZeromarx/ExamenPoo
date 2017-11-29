@@ -77,7 +77,7 @@ public class Cliente {
 
     public void Impresion() {
         System.out.println("===================");
-        System.out.println("Cliente:");
+        System.out.println("Cliente");
         System.out.println("===================");
         System.out.println("Rut: " + rut);
         System.out.println("Nombre: " + nombre);
