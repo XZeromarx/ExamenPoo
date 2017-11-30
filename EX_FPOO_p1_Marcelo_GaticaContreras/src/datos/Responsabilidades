@@ -1,3 +1,5 @@
+Especificaciones de las responsabilidades de cada clase:
+
 PersonalDeCabina:
 Clase que será heredada a Azafate y Piloto. Contiene todos los atributos y
 métodos que usarán las clases que hereden de esta. Esta clase no puede ser
